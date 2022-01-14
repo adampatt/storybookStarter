@@ -47,6 +47,10 @@
   "devDependencies": {
     "semantic-release": "^18.0.1"
   },
+   "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
